@@ -1,0 +1,10 @@
+{
+  "name": "검색 히스토리",
+  "description": "첫번쨰 확장프로그램",
+  "version": "0.1",
+  "permissions": ["contextMenus", "tabs", "activeTab","*://*/*"],
+  "background": {
+    "scripts": ["jquery.js","background.js"]
+  },
+  "manifest_version": 2
+}
